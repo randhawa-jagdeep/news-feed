@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.android.poc.viewmodel.NewsFeedViewModel"/>
+    </data>
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@color/smokyWhite"
+        android:orientation="vertical"
+    >
+     <include  android:id="@+id/toolbar"
+         layout="@layout/toolbar_layout"/>
+        <LinearLayout
+            android:id="@+id/topPanel"
+            android:orientation="horizontal"
+            android:layout_below="@+id/toolbar"
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/smokyWhite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+android:layout_below="@+id/toolbar"
+
+         />
+
+        <com.tuyenmonkey.mkloader.MKLoader
+            android:id="@+id/loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:mk_type="TwinFishesSpinner"
+            android:layout_centerInParent="true"
+            app:mk_color="@android:color/holo_blue_bright"/>
+
+    </RelativeLayout></layout>

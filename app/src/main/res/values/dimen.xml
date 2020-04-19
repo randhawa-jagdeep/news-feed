@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_20">20dp</dimen>
+    <dimen name="item_offset">15dp</dimen>
+    <dimen name="spacing_35">35dp</dimen>
+    <dimen name="bottom">50dp</dimen>
+    <dimen name="search_view_inset">5dp</dimen>
+    <dimen name="sliding_search_view_header_height">250dp</dimen>
+</resources>

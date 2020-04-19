@@ -1,0 +1,9 @@
+<resources>
+    <string name="home">Home</string>
+    <string name="app_name">POC</string>
+    <string name="no_record">No Record Found!</string>
+    <string name="network_error">No Internet Connection!</string>
+    <string name="timeout_error">Network error ..Please check your internet connection!</string>
+    <string name="server_error">Server error ..Please try again later!</string>
+    <string name="flickr_api_key">fb1388b2518bbd660b2676110ad751b4</string>
+</resources>
